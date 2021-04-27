@@ -17,22 +17,40 @@
         <!--Nome Completo, Data de Nascimento, Cpf ou Cnpj, Nome do Pai e nome da mãe-->
         <div class="mb-3">
             <!--nome-->
-          <label for="exampleInputEmail1" class="form-label ">Nome</label>
-          <input type="text" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp"> 
+          <label for="exampleInputEmail1" class="form-label ">Nome completo</label>
+          <input type="text" class="form-control email" id="exampleInputEmail1" required name="nome" aria-describedby="emailHelp" maxlength="30"> 
         </div>
 <!-- data de nascimento-->
-        <label for="exampleInputEmail1" class="form-label email">Data</label>
-          <input type="text" class="form-control email" placeholder="Ex.: dd/mm/aaaa" data-mask="00/00/0000" maxlength="10" autocomplete="off">
+<div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label ">Data de nascimento</label>
+          <input type="date" class="form-control email" placeholder="Ex.: dd/mm/aaaa" data-mask="00/00/0000" maxlength="10" autocomplete="off">
+        </div>
+         <!--CPF-->
         <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label ">CPF</label>
+          <input type="text" class="form-control cpf-mask email" required name="CPF" placeholder="Ex.: 000.000.000-00" maxlength="14" data-mask="000-000-000-00">
+          </div>
+
+ <!--senha-->
+          <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label ">Password</label>
           <input type="password" class="form-control email" id="exampleInputPassword1">
         </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        
+        <div class="mb-3">
+          <!--mae-->
+        <label for="exampleInputEmail1" class="form-label ">Nome da mãe</label>
+        <input type="text" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" maxlength="30"> 
+      </div>
+
+      <div class="mb-3">
+        <!--nome do pai-->
+      <label for="exampleInputEmail1" class="form-label ">Nome do pai</label>
+      <input type="text" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" maxlength="30"> 
+    </div>
+        <a type="submit" class="btn btn-primary">Submit</a>
       </form>
 </div>
 </body>
+<!--Dados Obrigatórios devem ser validados ( Nome completo, Cpf ou Cnpj, Endereço e ao menos 1 contato-->
 </html>

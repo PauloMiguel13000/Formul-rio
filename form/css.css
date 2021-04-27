@@ -1,0 +1,19 @@
+.background{
+background-color: #6329ff;
+
+}
+.tela1{
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-top: 3%;
+width: 270px;
+height: 170px;
+margin-left: 40%;
+border-radius: 10px;
+
+}
+.email{
+    border-radius: 10px;
+    height: 40px;
+}
