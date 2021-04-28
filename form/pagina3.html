@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Inclusão do jQuery-->
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<!-- Inclusão do Plugin jQuery Validation-->
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body class="background2">
+    <!--Dados de endereço ( Logradouro, Bairro, CEP, Cidade, Estado, Pais)-->
+    <div class="reg2">
+    <form id="formComentario" method="post" action="">
+        <fieldset>
+          <legend>Por favor preencha os Dados de Contato ( E-mail, Telefone Celular, Telefone Fixo, LlinkedIn, Twitter, Facebook, Instagram, Youtube,)</legend>
+          <!--logradouro-->
+          <p>
+            <label for="cnome">Logradouro</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+          <!--Bairro-->
+          <p>
+            <label for="cnome">Bairro, min 8 caracteres</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+          <p>
+            <label for="cnome">CEP, min 8 caracteres</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+          <p>
+            <label for="cnome">Cidade, min 8 caracteres</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+          <p>
+            <label for="cnome">Estado, min 8 caracteres</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+          <p>
+            <label for="cnome">Pais, min 8 caracteres</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+         
+          <p>
+            <label for="ccomentario">Seu comentário (obrigatório)</label>
+            <textarea id="ccomentario" name="comentario" required ></textarea>
+          </p>
+          <p>
+            <a type="submit" href="formcompleto.html" value="Enviar" class="btn-2">Enviar</a>
+          </p>
+        </fieldset>
+      </form>
+      </div>
+      <!-- Inclusão das validações com o Plugin jQuery Validation-->
+      <script src="validacao.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--Dados de Contato ( E-mail, Telefone Celular, Telefone Fixo, LlinkedIn, Twitter, Facebook, Instagram, Youtube,)-->

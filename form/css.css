@@ -1,0 +1,43 @@
+.background{
+background-color: #6329ff;
+
+}
+.background2{
+    background-color: #e1deeb;
+    
+    }
+.tela1{
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-top: 3%;
+width: 270px;
+height: 170px;
+margin-left: 40%;
+border-radius: 10px;
+
+}
+.reg2{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 9%;
+    width: 270px;
+    height: 170px;
+    margin-left: 40%;
+    border-radius: 10px;
+    
+    }
+.email{
+    border-radius: 10px;
+    height: 40px;
+}
+.btn-2{
+    border-width: 80px;
+    width: 170px;
+    height: 100px;
+    color: rgb(220, 235, 235);
+border-radius: 10px;
+    background-color: rgb(24, 23, 23);
+    text-decoration: none;
+}
