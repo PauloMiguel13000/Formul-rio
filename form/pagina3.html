@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Inclusão do jQuery-->
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<!-- Inclusão do Plugin jQuery Validation-->
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body class="background2">
+    <!--Dados de endereço ( Logradouro, Bairro, CEP, Cidade, Estado, Pais)-->
+    <div class="reg3">
+    <form id="formComentario" method="post" action="">
+        <fieldset>
+          <legend>Por favor preencha os Dados de Contato ( E-mail, Telefone Celular, Telefone Fixo, LlinkedIn, Twitter, Facebook, Instagram, Youtube,)</legend>
+          <!--logradouro-->
+          <p>
+            <label for="cemail">E-mail (obrigatório)</label>
+            <input type="email" id="cemail" name="email" required >
+          </p>
+          <!--Bairro-->
+          <p>
+            <label for="cnome">Telefone celular</label>
+            <input type="text" class="form-control phone-ddd-mask" id="cnome" name="nome" placeholder="Ex.: (00) 0000-0000" required minlength="2"  >
+          </p>
+          <p>
+            <label for="cnome">Telefone Fixo</label>
+            <input type="text" class="form-control phone-ddd-mask" id="cnome" name="nome" placeholder="Ex.: (00) 0000-0000" required minlength="2"  >
+          </p>
+          <p>
+            <label for="cnome">Linkedin, Adicione o link</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+          <p>
+            <label for="cnome">Twitter, Adicione o link</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+          <p>
+            <label for="cnome">Facebook, Adicione o link</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+          <p>
+            <label for="cnome">Instagram, Adicione o link</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+          <p>
+            <label for="cnome">Youtube, Adicione o link</label>
+            <input type="text" id="cnome" name="nome" required minlength="2">
+          </p>
+          <p>
+            <a type="submit" href="formcompleto.html" value="Enviar" class="btn-2">Enviar</a>
+          </p>
+        </fieldset>
+      </form>
+      </div>
+      <!-- Inclusão das validações com o Plugin jQuery Validation-->
+      <script src="validacao.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--Dados de Contato ( E-mail, Telefone Celular, Telefone Fixo, LlinkedIn, Twitter, Facebook, Instagram, Youtube,)-->
